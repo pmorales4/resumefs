@@ -1,7 +1,6 @@
 body {
   background-color: white;
   color: white;
-
 }
 
 #home {
@@ -40,8 +39,6 @@ body {
   padding-bottom: 40%;
   margin-left: 10%;
   margin-right: 10%;
-
-
 }
 
 #contact {
@@ -53,8 +50,8 @@ body {
 
 h1 {
   color: black;
-font-weight: 700;
-font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -63,7 +60,7 @@ font-family: Arial, Helvetica, sans-serif;
   margin-left: 20%;
   margin-right: 10%;
   font-size: medium;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 p {
@@ -73,13 +70,48 @@ p {
 h2 {
   color: black;
   font-weight: 700;
-font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-
   color: black;
   /* text-decoration: underline; */
+}
+a:link {
+  color: rgb(29, 123, 255);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(91, 139, 198);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(138, 189, 240);
+}
+
+/* selected link */
+a:active {
+  color: rgb(10, 91, 162);
+}
+
+/* button{
+  width: 300px;
+  background-color: rgb(29, 123, 255);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+} */
+
+#titles {
+  width: 280px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: rgb(29, 123, 255);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 h5 {
@@ -128,7 +160,6 @@ span {
   padding-bottom: 2%;
 }
 
-
 img {
   /* height: 160px;
   width: 160px; */
@@ -153,12 +184,10 @@ img {
   /* margin-left: auto;
   margin-right: auto;
   align-content: center; */
-
 }
 
 #homediv {
   /* align-content: center; */
-
 }
 
 #worldnewsdiv {
@@ -189,4 +218,3 @@ img {
 #whitewater {
   padding-top: 1%;
 }
-
