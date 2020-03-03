@@ -1,20 +1,21 @@
 body {
   background-color: white;
   color: white;
+
 }
 
 #home {
   color: black;
-  padding-top: 25%;
+  padding-top: 20%;
   text-align: center;
-  background-color: rgb(29, 123, 255);
-  color: white;
+
   padding-bottom: 30%;
 }
 
 #about-me {
   color: black;
-  padding-top: 8%;
+
+  padding-top: 13%;
   padding-bottom: 40%;
   margin-left: 10%;
   margin-right: 10%;
@@ -51,25 +52,39 @@ body {
 }
 
 h1 {
-  color: white;
-
+  color: black;
+font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.sub {
-  margin-left: 17%;
+.subtitle {
+  margin-left: 20%;
   margin-right: 10%;
-  font-size: x-large;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: black;
+  font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-  
+
   color: black;
+  /* text-decoration: underline; */
 }
 
 h5 {
   font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h4 {
@@ -77,6 +92,7 @@ h4 {
   font-size: large;
   margin-left: 10%;
   margin-right: 10%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h5 {
@@ -86,11 +102,11 @@ h5 {
 }
 
 h3 {
-  color: white;
+  color: black;
 }
 
-h2 {
-  color: black;
+.ed-title {
+  text-align: left;
 }
 
 span {
@@ -112,19 +128,37 @@ span {
   padding-bottom: 2%;
 }
 
+
 img {
-  height: 160px;
-  width: 160px;
-  border: 2px solid rgb(0, 0, 0);
+  /* height: 160px;
+  width: 160px; */
+  /* border: 2px solid rgb(0, 0, 0); */
 }
 
 /* CENTERS MY CONFERENCe LOGOS ON PAGE */
 .tableOfLogos {
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 5%;
-  width: 25%;
-  text-align: center;
+  /* padding-top: 10%; */
+  /* width: 40%; */
+  /* text-align: center; */
+}
+
+.resizeImage {
+  /* padding-top: 10%; */
+  height: 120px;
+  width: 120px;
+
+  /* margin-left: auto;
+  margin-right: auto;
+  align-content: center; */
+
+}
+
+#homediv {
+  /* align-content: center; */
+
 }
 
 #worldnewsdiv {
@@ -156,7 +190,3 @@ img {
   padding-top: 1%;
 }
 
-.footer {
-  background-color: rgb(29, 123, 255);
-  font-size: small;
-}
