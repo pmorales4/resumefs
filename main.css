@@ -7,13 +7,11 @@ body {
   color: black;
   padding-top: 20%;
   text-align: center;
-
   padding-bottom: 30%;
 }
 
 #about-me {
   color: black;
-
   padding-top: 13%;
   padding-bottom: 40%;
   margin-left: 10%;
@@ -21,13 +19,6 @@ body {
 }
 
 #portfolio {
-  padding-top: 8%;
-  padding-bottom: 30%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-#skills-used {
   padding-top: 8%;
   padding-bottom: 30%;
   margin-left: 10%;
@@ -75,8 +66,8 @@ h2 {
 
 a {
   color: black;
-  /* text-decoration: underline; */
 }
+
 a:link {
   color: rgb(29, 123, 255);
 }
@@ -95,14 +86,6 @@ a:hover {
 a:active {
   color: rgb(10, 91, 162);
 }
-
-/* button{
-  width: 300px;
-  background-color: rgb(29, 123, 255);
-  color: white;
-  padding-top: 5px;
-  padding-bottom: 5px;
-} */
 
 #titles {
   width: 280px;
@@ -160,39 +143,20 @@ span {
   padding-bottom: 2%;
 }
 
-img {
-  /* height: 160px;
-  width: 160px; */
-  /* border: 2px solid rgb(0, 0, 0); */
-}
-
 /* CENTERS MY CONFERENCe LOGOS ON PAGE */
 .tableOfLogos {
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
-  /* padding-top: 10%; */
-  /* width: 40%; */
-  /* text-align: center; */
 }
 
 .resizeImage {
-  /* padding-top: 10%; */
   height: 120px;
   width: 120px;
-
-  /* margin-left: auto;
-  margin-right: auto;
-  align-content: center; */
-}
-
-#homediv {
-  /* align-content: center; */
 }
 
 #worldnewsdiv {
   padding-top: 5%;
-  /* margin-top: 40%; */
 }
 
 #basketballdiv {
