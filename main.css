@@ -5,41 +5,56 @@ body {
   color: white;
 }
 
+.container{
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
+img {
+  padding-left: 1%;
+  padding-top: 2%;
+  
+  
+}
 /* home div below */
 /* ************ */
 #home {
   color: black;
   padding-top: 20%;
-  text-align: center;
+  /* text-align: center; */
   padding-bottom: 30%;
+}
+
+#homediv {
+  padding-top: 3%;
 }
 
 /* about me section */
 /* *************** */
 #about-me {
   color: black;
-  padding-top: 13%;
+  padding-top: 14%;
   padding-bottom: 40%;
-  margin-left: 10%;
-  margin-right: 10%;
+  /* margin-left: 10%;
+  margin-right: 10%; */
 }
 
 /* web projects section */
 /* ******************** */
 #portfolio {
-  padding-top: 8%;
+  padding-top: 9%;
   padding-bottom: 30%;
-  margin-left: 10%;
-  margin-right: 10%;
+  /* margin-left: 10%;
+  margin-right: 10%; */
 }
 
 /* degress listed section */
 /* ********************* */
 #education-obtained {
-  padding-top: 8%;
+  padding-top: 9%;
   padding-bottom: 40%;
-  margin-left: 10%;
-  margin-right: 10%;
+  /* margin-left: 10%;
+  margin-right: 10%; */
 }
 
 /* my bio section */
@@ -47,8 +62,8 @@ body {
 #contact {
   padding-top: 5%;
   padding-bottom: 30%;
-  margin-left: 10%;
-  margin-right: 10%;
+  /* margin-left: 10%;
+  margin-right: 10%; */
 }
 
 /* main headers on site */
@@ -57,8 +72,8 @@ h1 {
   color: black;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 10%;
-  margin-right: 10%;
+  /* margin-left: 10%;
+  margin-right: 10%; */
 }
 
 /* second line headers */
@@ -72,8 +87,8 @@ h2 {
 /* sub title under main name */
 /* ************************* */
 .subtitle {
-  margin-left: 20%;
-  margin-right: 10%;
+  /* margin-left: 10%;
+  margin-right: 10%; */
   font-size: medium;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -111,15 +126,15 @@ a:active {
 h4 {
   color: black;
   font-size: large;
-  margin-left: 10%;
-  margin-right: 10%;
+  /* margin-left: 10%;
+  margin-right: 10%; */
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h5 {
   color: black;
-  margin-left: 30%;
-  margin-right: 10%;
+  /* margin-left: 30%;
+  margin-right: 10%; */
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -140,33 +155,39 @@ span {
 
 /* logos on home page */
 /* ****************** */
-.tableOfLogos {
+/* .tableOfLogos {
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /* pictures on site */
 /* **************** */
-.resizeImage {
-  height: 120px;
-  width: 120px;
-}
+/* .resizeImage {
+  height: auto;
+  width: 100%;
+} */
+
+/* .responsive {
+  width: 100%; */
+  /* max-width: 600px; */
+  /* height: auto;
+} */
 
 #worldnewsdiv {
-  padding-top: 5%;
+  padding-top: 6%;
 }
 
 #basketballdiv {
-  padding-top: 5%;
+  padding-top: 6%;
 }
 
 #instagramdiv {
-  padding-top: 5%;
+  padding-top: 6%;
 }
 
 #musicdiv {
-  padding-top: 5%;
+  padding-top: 6%;
 }
 
 #ga {
